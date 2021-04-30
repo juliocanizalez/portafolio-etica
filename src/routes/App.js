@@ -6,7 +6,6 @@ import PartTwo from '../containers/PartTwo'
 import NotFound from '../containers/NotFound'
 import About from '../containers/About'
 
-
 const App = () => (
     <BrowserRouter>
         <Switch>
@@ -18,6 +17,5 @@ const App = () => (
         </Switch>
     </BrowserRouter>
 )
-
 
 export default App
