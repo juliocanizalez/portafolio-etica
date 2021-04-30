@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const Header = (props) => {
+const Header = ({parteUno, parteDos, acercaDe}) => {
     return (
         <Container>
             <Navbar variant="light" collapseOnSelect expand="lg" sticky="top" >
@@ -13,15 +13,15 @@ const Header = (props) => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Link to='uno'>
-                            <Nav.Item className="text-dark">Parte Uno</Nav.Item>
+                            <Nav.Item className={parteUno}>Parte Uno</Nav.Item>
                         </Link>
                         <Link to='/dos'>
-                            <Nav.Item className="text-dark">Parte Dos</Nav.Item>
+                            <Nav.Item className={parteDos}>Parte Dos</Nav.Item>
                         </Link>
                     </Nav>
                     <Nav>
                         <Link to='/about'>
-                            <Nav.Item className="text-dark">Acerca De</Nav.Item>
+                            <Nav.Item className={acercaDe}>Acerca De</Nav.Item>
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
