@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portafolio-etica/static/css/main.eaf8448b.chunk.css",
-    "main.js": "/portafolio-etica/static/js/main.a35fd5a2.chunk.js",
-    "main.js.map": "/portafolio-etica/static/js/main.a35fd5a2.chunk.js.map",
+    "main.js": "/portafolio-etica/static/js/main.451d90f4.chunk.js",
+    "main.js.map": "/portafolio-etica/static/js/main.451d90f4.chunk.js.map",
     "runtime-main.js": "/portafolio-etica/static/js/runtime-main.22e55ea5.js",
     "runtime-main.js.map": "/portafolio-etica/static/js/runtime-main.22e55ea5.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portafolio-etica/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9c0669f2.chunk.js": "/portafolio-etica/static/js/2.9c0669f2.chunk.js",
-    "static/js/2.9c0669f2.chunk.js.map": "/portafolio-etica/static/js/2.9c0669f2.chunk.js.map",
+    "static/js/2.dc47ae40.chunk.js": "/portafolio-etica/static/js/2.dc47ae40.chunk.js",
+    "static/js/2.dc47ae40.chunk.js.map": "/portafolio-etica/static/js/2.dc47ae40.chunk.js.map",
     "index.html": "/portafolio-etica/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portafolio-etica/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.eaf8448b.chunk.css.map": "/portafolio-etica/static/css/main.eaf8448b.chunk.css.map",
-    "static/js/2.9c0669f2.chunk.js.LICENSE.txt": "/portafolio-etica/static/js/2.9c0669f2.chunk.js.LICENSE.txt",
+    "static/js/2.dc47ae40.chunk.js.LICENSE.txt": "/portafolio-etica/static/js/2.dc47ae40.chunk.js.LICENSE.txt",
     "static/media/baddev.022785d2.png": "/portafolio-etica/static/media/baddev.022785d2.png",
     "static/media/description.3ad82b54.png": "/portafolio-etica/static/media/description.3ad82b54.png",
     "static/media/gooddev.d71e7d57.png": "/portafolio-etica/static/media/gooddev.d71e7d57.png",
@@ -20,8 +20,8 @@
   "entrypoints": [
     "static/js/runtime-main.22e55ea5.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9c0669f2.chunk.js",
+    "static/js/2.dc47ae40.chunk.js",
     "static/css/main.eaf8448b.chunk.css",
-    "static/js/main.a35fd5a2.chunk.js"
+    "static/js/main.451d90f4.chunk.js"
   ]
 }
