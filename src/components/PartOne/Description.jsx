@@ -12,7 +12,7 @@ const Description = () => {
                     </h1>
                 </Col>
                 <Col sm lg="6">
-                    <LootiePlayer url='https://assets7.lottiefiles.com/private_files/lf30_WdTEui.json' />
+                    <LootiePlayer url='https://assets4.lottiefiles.com/packages/lf20_sSF6EG.json' />
                 </Col>
             </Row>
         </Container>

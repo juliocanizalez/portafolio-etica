@@ -7,12 +7,13 @@ const Description = () => {
         <Container>
             <Row className="justify-content-center align-items-center">
                 <Col sm lg="6">
-                    <h1 className="text-center">
+                    <h1 className="text-center display-4">
                         Parte II
                     </h1>
+                    <p className="text-center font-weight-light">Responder</p>
                 </Col>
                 <Col sm lg="6">
-                    <LootiePlayer url='https://assets2.lottiefiles.com/packages/lf20_jCWSsE.json' />
+                    <LootiePlayer url='https://assets7.lottiefiles.com/private_files/lf30_WdTEui.json' />
                 </Col>
             </Row>
         </Container>

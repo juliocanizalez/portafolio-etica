@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/General/Header'
 import Footer from '../components/General/Footer'
 import Description from '../components/PartTwo/Description'
+import Content from '../components/PartTwo/Content'
 import { motion } from 'framer-motion'
 
 const PartTwo = () => {
@@ -14,6 +15,7 @@ const PartTwo = () => {
                 transition={{ duration: 1 }}
             >
                 <Description />
+                <Content />
                 <Footer />
             </motion.div>
         </>
