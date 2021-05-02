@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const About = () => {
     return (
         <>
-            <Header parteUno="text-secondary mr-2" parteDos="text-secondary" acercaDe="text-dark" />
+            <Header parteUno="text-secondary mr-3" parteDos="text-secondary mr-3" acercaDe="text-dark" />
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -27,6 +27,7 @@ const About = () => {
                         </Card>
                     </Row>
                 </Container>
+                <Footer />
             </motion.div>
         </>
     )

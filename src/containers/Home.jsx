@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from '../components/General/Header'
 import Footer from '../components/General/Footer'
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
 import { Container, Row, Col } from 'react-bootstrap'
 import { motion } from 'framer-motion'
+import LootiePlayer from '../components/General/LootiePlayer'
 
 const Home = () => {
     return (
         <>
-            <Header parteUno="text-secondary mr-2" parteDos="text-secondary" acercaDe="text-secondary" />
+            <Header parteUno="text-secondary mr-3" parteDos="text-secondary mr-3" acercaDe="text-secondary" />
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -25,14 +25,7 @@ const Home = () => {
                             </h4>
                         </Col>
                         <Col sm lg="6">
-                            <Player
-                                autoplay
-                                loop
-                                src='https://assets6.lottiefiles.com/packages/lf20_eijHZ0.json'
-                                style={{ height: 'auto', width: '90%' }}
-                            >
-                                <Controls visible={false}></Controls>
-                            </Player>
+                            <LootiePlayer url='https://assets6.lottiefiles.com/packages/lf20_eijHZ0.json' />
                         </Col>
 
                     </Row>

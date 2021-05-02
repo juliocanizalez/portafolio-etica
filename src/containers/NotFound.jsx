@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const NotFound = () => {
     return (
         <Container fluid>
-            <Header parteUno="text-secondary mr-2" parteDos="text-secondary" acercaDe="text-secondary" />
+            <Header parteUno="text-secondary mr-3" parteDos="text-secondary mr-3" acercaDe="text-secondary" />
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
