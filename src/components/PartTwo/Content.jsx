@@ -1,7 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import firstSection from '../../assets/img/questions1.png'
-import secondSection from '../../assets/img/questions2.png'
 
 const Content = () => {
     return (
