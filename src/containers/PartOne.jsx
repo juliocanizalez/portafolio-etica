@@ -4,7 +4,6 @@ import Footer from '../components/General/Footer'
 import Description from '../components/PartOne/Description'
 import Content from '../components/PartOne/Content'
 import { motion } from 'framer-motion'
-import '../assets/styles/style.css'
 
 const PartOne = () => {
     return (
