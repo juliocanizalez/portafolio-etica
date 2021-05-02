@@ -11,15 +11,13 @@ const Header = ({parteUno, parteDos, acercaDe}) => {
                 </Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="ml-auto">
                         <Link to='uno'>
                             <Nav.Item className={parteUno}>Parte Uno</Nav.Item>
                         </Link>
                         <Link to='/dos'>
                             <Nav.Item className={parteDos}>Parte Dos</Nav.Item>
                         </Link>
-                    </Nav>
-                    <Nav>
                         <Link to='/about'>
                             <Nav.Item className={acercaDe}>Acerca De</Nav.Item>
                         </Link>
